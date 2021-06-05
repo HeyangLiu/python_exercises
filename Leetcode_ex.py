@@ -21,4 +21,14 @@ def twoSum(nums: List[int], target: int):
                 break
     return l
 
-
+# 9. Palindrome Number
+def isPalindrome(self, x: int) -> bool:
+        if x<0:
+            return False
+        s = str(x)
+        print(int(len(s)/2))
+        for i in range(0, int(len(s)/2)):
+            if(s[i]!=s[-1-i]):
+                print(i, -1-i)
+                return False
+        return True
