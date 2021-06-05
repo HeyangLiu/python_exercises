@@ -7,7 +7,7 @@ import os
 import platform
 import multiprocessing
 def main():
-    
+    """
     #date n time
     now = datetime.now()
     print(now.strftime("%Y-%m-%d %H:%M:%S"))
@@ -133,7 +133,11 @@ def main():
     #int to binary and hex
     x=28
     print(format(x, "08b"))
-    print(format(x, "08x"))
+    print(format(x, "08x"))"""
+    # for loop
+    for i in range (0, 10, 2):
+        print(i)
+
     
    
 
